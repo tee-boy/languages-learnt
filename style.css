@@ -1,0 +1,146 @@
+html{
+    background-color: #000;
+}
+/* section section section section section */
+#first__page{
+    background-color: white;
+}
+#home__page{
+    padding-top: 10vh;
+    gap: 10px;
+ }
+ #img{
+     border-radius: 100%;
+     width: 50%;
+     margin-left: 75px;
+ }
+ #img1{
+     border-radius: 5vh;
+     width: 60vh;
+     height: 70vh;
+     /* margin-left: 500px; */
+ }
+ h1{
+     top: 140vh;
+ 
+ }
+ /* section section section section section section section section */
+ #img-1{
+    height: 30vh;
+    width: 50vh;
+ }
+ #carouselExampleCaptions{
+     margin-top: 10vh;
+ }
+ .carousel-caption{
+     color: black;
+     font-size: 40px;
+ }
+ /* footer */
+ #footer{
+     background-color: #000;
+ }
+ 
+/* footer footer footer */
+
+@media (max-width: 600px) {
+    
+    #img{
+        border-radius: 100%;
+        width: 30%;
+        margin-left: 75px;
+    }
+    #img1{
+        border-radius:3vh;
+        width: 20vh;
+        height: 25vh;
+    
+}
+#offcanvasDarkNavbarLabel{
+    margin-left: auto;
+}
+.carousel-caption{
+    color: black;
+    font-size: 20px;
+}
+.carousel-caption{
+    height: 5vh;
+    width: 5vh;
+}
+/* footer */
+
+#footer{
+    height: 10vh;
+}
+
+}
+
+
+
+@media (max-width: 600px) and (min-width: 480px) {
+    
+    #img{
+        border-radius: 100%;
+        width: 30%;
+        margin-left: 75px;
+    }
+    #img1{
+        border-radius:3vh;
+        width: 20vh;
+        height: 25vh;
+    
+}
+h1{
+    font-size: 20px;
+}
+#offcanvasDarkNavbarLabel{
+    margin-left: auto;
+}
+.carousel-caption{
+    color: black;
+    font-size: 20px;
+}
+/* footer */
+
+#footer{
+    height: 12vh;
+}
+}
+
+
+
+@media (max-width: 1000px) and (min-width: 800px) {
+    #home__page{
+        padding-top: 10vh;
+        gap: 10px;
+     }
+     #img{
+         border-radius: 100%;
+         width: 50%;
+         margin-left: 75px;
+     }
+     #img1{
+         border-radius: 5vh;
+         width: 50vh;
+         height: 60vh;
+         margin-left: 120px;
+     }
+     h1{
+         top: 190vh;
+     
+     }
+     /* section section section section section section section section */
+     
+     #carouselExampleCaptions{
+         margin-top: 10vh;
+     }
+     .carousel-caption{
+         color: black;
+         font-size: 40px;
+     }
+     /* footer */
+     #footer{
+         height: 20vh;
+         margin-top: 10vh;
+     }
+    }

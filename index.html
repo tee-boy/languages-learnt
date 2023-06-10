@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile card</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon copy.ico">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="spinner-border text-primary" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+    <!-- setion 1 setion 1 setion 1 setion 1 -->
+    <!-- navbar -->
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <!-- navbar-brand -->
+          <a class="navbar-brand" href="#">Techtv</a>
+          <!-- <button></button> -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- div -->
+          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title text-center active" id="offcanvasDarkNavbarLabel">Learn Java Script Today</h5>
+              <button type="button" class="btn-close btn-close-green active bg-dark" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <!-- div -->
+            <div class="offcanvas-body">
+                <!-- <ul></ul> -->
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 text-center">
+                <img src="76d3f022-cde6-465e-9fd5-fa2884dfceb0.jfif" alt="my Profile img" id="img">
+                <!-- <li></li> -->
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Welome</a>
+                </li>
+                <li class="nav-item dropdown">
+                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    </a>
+                    <!-- dropdown menu -->
+                    <ul class="dropdown-menu dropdown-menu-dark">
+
+                      <li class="active text-center ">contact</li>
+
+                      <hr class="dropdown-divider">
+
+                      <li><a class="dropdown-item" href="https://en.wh.ms/2349126195688">On whatsapp</a></li>
+
+                      <li><a class="dropdown-item" href="#">Phone</a></li>
+
+                      <li><a class="dropdown-item" href="#">On Telegram</a></li>
+                    </ul>        
+
+                  </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+<!-- <section></section> -->
+      <section id="first__page">
+        <div id="home__page">
+          <h1 class="text-center" style="color: white; border-bottom: 1px;color: black;">Tochukwu Emmanuel</h1>
+          <center>
+<img src="76d3f022-cde6-465e-9fd5-fa2884dfceb0.jfif" alt="" id="img1">
+          </center>
+          
+        </div>
+  
+      </section>
+      <!-- <section></section>2 -->
+      <section id="slide__page">
+        
+        <div id="carouselExampleCaptions" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="asset/html-img2.png" class="d-block w-100" alt="html-img" id="sss" style="height: 70vh; width: 20vh;">
+              <div class="carousel-caption d-none d-md-block">
+                <h5 class="active">HTML Experience</h5>
+                <p style="color: black; font-size: 35px;">It really cool coding, having sleepless night to know the basics and to work. yeah I agree html is the like the structure of every website.</p>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <img src="asset/css.jpg" class="d-block w-100" alt="cssimage" style="font-size: large;" id="sss" style="height: 5vh; width: 10vh;">
+              <div class="carousel-caption d-none d-md-block">
+                <h5 class="active">css Experience</h5>
+                <p style="color: black;">css is fun to use or work with because it is used for styling our website.</p>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <img src="asset/js-img.png" class="d-block w-100" alt="js-img" id="sss" style="height: 70vh; width: 20vh;">
+              <div class="carousel-caption d-none d-md-block">
+                <h5 class="active inline-block text-truncate"  style="stroke: 3px black; max-width: 150px;">Java Script</h5>
+                <p style="color: black;">Java Script (JS) is used for the functionality of the website, JS is very tricky andneeds the developer to think.</p>
+              </div>
+            </div>
+          </div>
+
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+
+        </div>
+
+      </section>
+
+    
+    
+    
+    <script src="idex.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+<footer class="text-center text-bg-dark active" id="footer" style="height: 5vh;">© copywright,all reserved. </footer>
+</html>
